@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0452EEDE2927ACEB004A9ECE /* DishPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EEDD2927ACEB004A9ECE /* DishPreviewView.swift */; };
+		0452EEE12927B7FE004A9ECE /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EEE02927B7FE004A9ECE /* InfoView.swift */; };
+		0452EEE32927CFBA004A9ECE /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EEE22927CFBA004A9ECE /* TimerView.swift */; };
+		0452EEE52927D1A6004A9ECE /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EEE42927D1A6004A9ECE /* TimerViewModel.swift */; };
+		0452EEEA292C1A2A004A9ECE /* IngridientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EEE9292C1A2A004A9ECE /* IngridientModel.swift */; };
+		0452EEEE292C1BC2004A9ECE /* NoIngridientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EEED292C1BC2004A9ECE /* NoIngridientsView.swift */; };
+		0452EEF2292C1CDC004A9ECE /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EEF1292C1CDC004A9ECE /* ListRowView.swift */; };
+		0452EEF4292D6AC2004A9ECE /* AppendIngridientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EEF3292D6AC1004A9ECE /* AppendIngridientsView.swift */; };
+		0452EEF6292E18D9004A9ECE /* IngridientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EEF5292E18D9004A9ECE /* IngridientsListView.swift */; };
+		0452EEF8292E2026004A9ECE /* AddIngridientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452EEF7292E2026004A9ECE /* AddIngridientsView.swift */; };
+		048C1567292795D800E6AF5F /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C1566292795D800E6AF5F /* DishesView.swift */; };
+		04D07B5929256F0600BDB54D /* CookeryartyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D07B5829256F0600BDB54D /* CookeryartyApp.swift */; };
+		04D07B5D29256F0900BDB54D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D07B5C29256F0900BDB54D /* Assets.xcassets */; };
+		04D07B6029256F0900BDB54D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D07B5F29256F0900BDB54D /* Preview Assets.xcassets */; };
+		04D07B6829257E0900BDB54D /* DishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D07B6729257E0900BDB54D /* DishListView.swift */; };
+		04D07B702926A9CD00BDB54D /* DishDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D07B6F2926A9CD00BDB54D /* DishDataService.swift */; };
+		04D07B722926A9DD00BDB54D /* DishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D07B712926A9DD00BDB54D /* DishModel.swift */; };
+		04D07B752926ABDE00BDB54D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D07B742926ABDE00BDB54D /* LaunchScreen.storyboard */; };
+		04D07B792926C82300BDB54D /* DishesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D07B782926C82300BDB54D /* DishesViewModel.swift */; };
+		04D07B7B2926C8A300BDB54D /* DishDeteilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D07B7A2926C8A300BDB54D /* DishDeteilView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0452EEDD2927ACEB004A9ECE /* DishPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPreviewView.swift; sourceTree = "<group>"; };
+		0452EEE02927B7FE004A9ECE /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		0452EEE22927CFBA004A9ECE /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		0452EEE42927D1A6004A9ECE /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		0452EEE9292C1A2A004A9ECE /* IngridientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngridientModel.swift; sourceTree = "<group>"; };
+		0452EEED292C1BC2004A9ECE /* NoIngridientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIngridientsView.swift; sourceTree = "<group>"; };
+		0452EEF1292C1CDC004A9ECE /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		0452EEF3292D6AC1004A9ECE /* AppendIngridientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendIngridientsView.swift; sourceTree = "<group>"; };
+		0452EEF5292E18D9004A9ECE /* IngridientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngridientsListView.swift; sourceTree = "<group>"; };
+		0452EEF7292E2026004A9ECE /* AddIngridientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngridientsView.swift; sourceTree = "<group>"; };
+		048C1566292795D800E6AF5F /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		04D07B5529256F0600BDB54D /* Cookeryarty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookeryarty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D07B5829256F0600BDB54D /* CookeryartyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookeryartyApp.swift; sourceTree = "<group>"; };
+		04D07B5C29256F0900BDB54D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D07B5F29256F0900BDB54D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04D07B6729257E0900BDB54D /* DishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListView.swift; sourceTree = "<group>"; };
+		04D07B6F2926A9CD00BDB54D /* DishDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDataService.swift; sourceTree = "<group>"; };
+		04D07B712926A9DD00BDB54D /* DishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishModel.swift; sourceTree = "<group>"; };
+		04D07B742926ABDE00BDB54D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D07B762926ACF300BDB54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04D07B782926C82300BDB54D /* DishesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesViewModel.swift; sourceTree = "<group>"; };
+		04D07B7A2926C8A300BDB54D /* DishDeteilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDeteilView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D07B5229256F0600BDB54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0452EEDF2927B7D6004A9ECE /* Info View */ = {
+			isa = PBXGroup;
+			children = (
+				0452EEE02927B7FE004A9ECE /* InfoView.swift */,
+			);
+			path = "Info View";
+			sourceTree = "<group>";
+		};
+		0452EEF9292E24D5004A9ECE /* IngridientsViews */ = {
+			isa = PBXGroup;
+			children = (
+				0452EEF5292E18D9004A9ECE /* IngridientsListView.swift */,
+				0452EEF7292E2026004A9ECE /* AddIngridientsView.swift */,
+				0452EEF1292C1CDC004A9ECE /* ListRowView.swift */,
+				0452EEED292C1BC2004A9ECE /* NoIngridientsView.swift */,
+			);
+			path = IngridientsViews;
+			sourceTree = "<group>";
+		};
+		04D07B4C29256F0600BDB54D = {
+			isa = PBXGroup;
+			children = (
+				04D07B5729256F0600BDB54D /* Cookeryarty */,
+				04D07B5629256F0600BDB54D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D07B5629256F0600BDB54D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D07B5529256F0600BDB54D /* Cookeryarty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D07B5729256F0600BDB54D /* Cookeryarty */ = {
+			isa = PBXGroup;
+			children = (
+				04D07B762926ACF300BDB54D /* Info.plist */,
+				04D07B5829256F0600BDB54D /* CookeryartyApp.swift */,
+				04D07B742926ABDE00BDB54D /* LaunchScreen.storyboard */,
+				04D07B6629257DE900BDB54D /* Dish Module */,
+				0452EEDF2927B7D6004A9ECE /* Info View */,
+				04D07B5C29256F0900BDB54D /* Assets.xcassets */,
+				04D07B5E29256F0900BDB54D /* Preview Content */,
+			);
+			path = Cookeryarty;
+			sourceTree = "<group>";
+		};
+		04D07B5E29256F0900BDB54D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04D07B5F29256F0900BDB54D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04D07B6629257DE900BDB54D /* Dish Module */ = {
+			isa = PBXGroup;
+			children = (
+				04D07B6C2926A97500BDB54D /* DishesViews */,
+				0452EEF9292E24D5004A9ECE /* IngridientsViews */,
+				04D07B6D2926A98D00BDB54D /* ViewModel */,
+				04D07B6E2926A9A800BDB54D /* Model */,
+				04D07B772926C7ED00BDB54D /* DishDataService */,
+			);
+			path = "Dish Module";
+			sourceTree = "<group>";
+		};
+		04D07B6C2926A97500BDB54D /* DishesViews */ = {
+			isa = PBXGroup;
+			children = (
+				048C1566292795D800E6AF5F /* DishesView.swift */,
+				04D07B6729257E0900BDB54D /* DishListView.swift */,
+				04D07B7A2926C8A300BDB54D /* DishDeteilView.swift */,
+				0452EEF3292D6AC1004A9ECE /* AppendIngridientsView.swift */,
+				0452EEDD2927ACEB004A9ECE /* DishPreviewView.swift */,
+				0452EEE22927CFBA004A9ECE /* TimerView.swift */,
+			);
+			path = DishesViews;
+			sourceTree = "<group>";
+		};
+		04D07B6D2926A98D00BDB54D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04D07B782926C82300BDB54D /* DishesViewModel.swift */,
+				0452EEE42927D1A6004A9ECE /* TimerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04D07B6E2926A9A800BDB54D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04D07B712926A9DD00BDB54D /* DishModel.swift */,
+				0452EEE9292C1A2A004A9ECE /* IngridientModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04D07B772926C7ED00BDB54D /* DishDataService */ = {
+			isa = PBXGroup;
+			children = (
+				04D07B6F2926A9CD00BDB54D /* DishDataService.swift */,
+			);
+			path = DishDataService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D07B5429256F0600BDB54D /* Cookeryarty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D07B6329256F0900BDB54D /* Build configuration list for PBXNativeTarget "Cookeryarty" */;
+			buildPhases = (
+				04D07B5129256F0600BDB54D /* Sources */,
+				04D07B5229256F0600BDB54D /* Frameworks */,
+				04D07B5329256F0600BDB54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cookeryarty;
+			productName = Cookeryarty;
+			productReference = 04D07B5529256F0600BDB54D /* Cookeryarty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D07B4D29256F0600BDB54D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					04D07B5429256F0600BDB54D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 04D07B5029256F0600BDB54D /* Build configuration list for PBXProject "Cookeryarty" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D07B4C29256F0600BDB54D;
+			productRefGroup = 04D07B5629256F0600BDB54D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D07B5429256F0600BDB54D /* Cookeryarty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D07B5329256F0600BDB54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D07B752926ABDE00BDB54D /* LaunchScreen.storyboard in Resources */,
+				04D07B6029256F0900BDB54D /* Preview Assets.xcassets in Resources */,
+				04D07B5D29256F0900BDB54D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D07B5129256F0600BDB54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0452EEEE292C1BC2004A9ECE /* NoIngridientsView.swift in Sources */,
+				04D07B7B2926C8A300BDB54D /* DishDeteilView.swift in Sources */,
+				0452EEDE2927ACEB004A9ECE /* DishPreviewView.swift in Sources */,
+				04D07B722926A9DD00BDB54D /* DishModel.swift in Sources */,
+				0452EEE52927D1A6004A9ECE /* TimerViewModel.swift in Sources */,
+				04D07B702926A9CD00BDB54D /* DishDataService.swift in Sources */,
+				048C1567292795D800E6AF5F /* DishesView.swift in Sources */,
+				0452EEEA292C1A2A004A9ECE /* IngridientModel.swift in Sources */,
+				0452EEE32927CFBA004A9ECE /* TimerView.swift in Sources */,
+				04D07B6829257E0900BDB54D /* DishListView.swift in Sources */,
+				0452EEF6292E18D9004A9ECE /* IngridientsListView.swift in Sources */,
+				04D07B792926C82300BDB54D /* DishesViewModel.swift in Sources */,
+				0452EEE12927B7FE004A9ECE /* InfoView.swift in Sources */,
+				0452EEF2292C1CDC004A9ECE /* ListRowView.swift in Sources */,
+				04D07B5929256F0600BDB54D /* CookeryartyApp.swift in Sources */,
+				0452EEF4292D6AC2004A9ECE /* AppendIngridientsView.swift in Sources */,
+				0452EEF8292E2026004A9ECE /* AddIngridientsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04D07B6129256F0900BDB54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D07B6229256F0900BDB54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D07B6429256F0900BDB54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cookeryarty/Preview Content\"";
+				DEVELOPMENT_TEAM = URXJ9G4DT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cookeryarty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OvcharenkoDan.Cookeryarty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04D07B6529256F0900BDB54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cookeryarty/Preview Content\"";
+				DEVELOPMENT_TEAM = URXJ9G4DT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cookeryarty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OvcharenkoDan.Cookeryarty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D07B5029256F0600BDB54D /* Build configuration list for PBXProject "Cookeryarty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D07B6129256F0900BDB54D /* Debug */,
+				04D07B6229256F0900BDB54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D07B6329256F0900BDB54D /* Build configuration list for PBXNativeTarget "Cookeryarty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D07B6429256F0900BDB54D /* Debug */,
+				04D07B6529256F0900BDB54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D07B4D29256F0600BDB54D /* Project object */;
+}
